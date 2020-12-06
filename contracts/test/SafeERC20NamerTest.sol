@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-
-pragma solidity >=0.5.0;
+pragma solidity 0.7.4;
 
 import '../libraries/SafeERC20Namer.sol';
 
@@ -25,7 +24,7 @@ contract NamerTestFakeCompliantERC20 {
     string public name;
     string public symbol;
 
-    constructor(string memory name_, string memory symbol_) public {
+    constructor(string memory name_, string memory symbol_) {
         name = name_;
         symbol = symbol_;
     }
