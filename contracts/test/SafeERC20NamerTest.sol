@@ -35,7 +35,7 @@ contract NamerTestFakeNoncompliantERC20 {
     bytes32 public name;
     bytes32 public symbol;
 
-    constructor(bytes32 name_, bytes32 symbol_) public {
+    constructor(bytes32 name_, bytes32 symbol_) {
         name = name_;
         symbol = symbol_;
     }
